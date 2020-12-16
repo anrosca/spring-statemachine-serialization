@@ -1,0 +1,31 @@
+{
+  "@type": "org.springframework.statemachine.support.DefaultStateMachineContext",
+  "id": null,
+  "childs": {
+    "@type": "java.util.ArrayList"
+  },
+  "childRefs": {
+    "@type": "java.util.ArrayList"
+  },
+  "state": {
+    "@type": "com.endava.statemachine.States",
+    "name": "S2"
+  },
+  "historyStates": {
+    "@type": "java.util.HashMap"
+  },
+  "event": null,
+  "eventHeaders": null,
+  "extendedState": {
+    "@type": "org.springframework.statemachine.support.DefaultExtendedState",
+    "variables": {
+      "@type": "org.springframework.statemachine.support.ObservableMap",
+      "mike": {
+        "@type": "com.endava.statemachine.User",
+        "firstName": "Mike",
+        "lastName": "Smith"
+      }
+    },
+    "listener": null
+  }
+}
